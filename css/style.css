@@ -8,7 +8,7 @@ a {
     color: white;
 }
 
-.title {
+.ms-title {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
@@ -19,6 +19,10 @@ img {
     width: 100%;
 }
 
+html {
+    font-size: 100%;
+}
+
 /* HEADER */
 header {
     height: 60px;
@@ -27,30 +31,57 @@ header {
     line-height: 60px;
 }
 
-header .title {
+header .ms-title {
     font-size: 1rem;
 }
 
-.menu_icon {
+.ms-menu-icon {
     text-align: right;
 }
 
-.menu_list {
+.ms-menu-list {
     display: none;
     text-align: right;
 }
 
-.menu_list li {
+.ms-menu-list li {
     display: inline-block;
     margin-left: 1rem;
 }
 
+/* JUMBOTRON */
+
+.ms-jumbotron {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.ms-avatar {
+    width: 20%;
+    object-fit: contain;
+    display: block;
+    margin: 1rem auto;    
+}
+
+.ms-title {
+    font-size: 1.5rem;
+}
+
+.ms-works {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
 @media (min-width: 768px) {
-    .menu_icon {
+    .ms-menu-icon {
         display: none;
     }
 
-    .menu_list {
+    .ms-menu-list {
         display: block;
         text-transform: uppercase;
         font-weight: bold;
