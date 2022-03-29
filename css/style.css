@@ -49,6 +49,20 @@ header .ms-title {
     margin-left: 1rem;
 }
 
+@media (min-width: 768px) {
+    .ms-menu-icon {
+        display: none;
+    }
+
+    .ms-menu-list {
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: .8rem;
+    }
+}
+
 /* JUMBOTRON */
 
 .ms-jumbotron {
@@ -76,16 +90,17 @@ header .ms-title {
     padding-bottom: 2rem;
 }
 
-@media (min-width: 768px) {
-    .ms-menu-icon {
-        display: none;
-    }
+/* PORTFOLIO */
 
-    .ms-menu-list {
-        display: block;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-align: center;
-        font-size: .8rem;
-    }
+.ms-portfolio .box {
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+}
+
+.ms-portfolio-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
 }
