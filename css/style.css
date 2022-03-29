@@ -129,14 +129,35 @@ header .ms-title {
     padding-bottom: 2rem;
 }
 
-.ms-about-button {
+.ms-button {
     border: 1px solid white;
     border-radius: 5px;
     display: inline-block;
     padding: 6px 12px;
 }
 
-.ms-about:last-child {
+.ms-about .ms-container:last-child {
     padding-bottom: 2rem;
     text-align: center;
+}
+
+/* CONTACT */
+
+.ms-contact-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+
+.ms-contact li {
+    display: block;
+    border-bottom: 1px solid lightgray;
+    padding: 0.5rem 0;
+}
+
+.ms-green {
+    background-color: #1abc9c;
+    color: white;
 }
